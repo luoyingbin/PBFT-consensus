@@ -1,0 +1,12 @@
+server:
+  port: 8899
+logging:
+  level:
+    #日志输出级别 TRACE < DEBUG < INFO < WARN < ERROR < FATAL
+    root: INFO
+    com: DEBUG
+    com.zaxxer.hikari.pool.HikariPool: INFO
+    com.zaxxer.hikari.HikariPool: INFO
+    com.zaxxer.hikari.HikariDataSource: INFO
+    com.zaxxer.hikari: INFO
+    com.dao: INFO
